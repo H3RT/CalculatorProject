@@ -20,8 +20,8 @@ This project is a simple calculator application built in Java that supports basi
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/H3RT/calculator-app.git
-cd calculator-app
+git clone https://github.com/H3RT/CalculatorProject.git
+cd CalculatorProject
 ```
 ### 2. Compile project
 ```bash 
