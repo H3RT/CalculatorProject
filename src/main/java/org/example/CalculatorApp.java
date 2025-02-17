@@ -21,7 +21,7 @@ public class CalculatorApp {
     }
 
     //This method will subtract the difference of 2 numbers or more and return the output
-    public static double subtract(double... nums) {
+    public double subtract(double... nums) {
         if (nums.length == 0) {
             throw new IllegalArgumentException("At least one number must be provided.");
         }
@@ -36,7 +36,7 @@ public class CalculatorApp {
     }
 
     //This method will divide the 2 numbers and also check if the denominator is not equal to zero before returning the output
-    public static double divide(double a, double b) {
+    public double divide(double a, double b) {
         if(b == 0){
             throw new ArithmeticException(" Cannot divide by zero");
         }
